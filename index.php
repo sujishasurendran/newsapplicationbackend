@@ -15,7 +15,7 @@ if(isset($_POST['upload'])){
     }
 }
 
-$result = $conn->query("SELECT image_path from slider ORDER BY id DESC LIMIT 3");
+$result = $conn->query("SELECT image_path from slider ORDER BY id DESC LIMIT 5");
 ?>
 
 <!DOCTYPE html>
